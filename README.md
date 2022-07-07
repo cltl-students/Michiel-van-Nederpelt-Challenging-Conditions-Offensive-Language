@@ -18,8 +18,11 @@ We follow four "phases" for increasing challenging conditions:
 The code and links to resources used are here for reference: Much of the data required is (temporarily) available in the data folder. This will be taken offline after review. Links to the original data include:
 
 HASOC 2019 task and description: https://dl.acm.org/doi/pdf/10.1145/3368567.3368584
+
 SemEval-2019 Task 6: Identifying and Categorizing Offensive Language in Social Media (OffensEval): https://aclanthology.org/S19-2010.pdf
+
 HASOC dataset download: https://hasocfire.github.io/hasoc/2020/dataset.html
+
 OLID dataset download: https://competitions.codalab.org/competitions/20011
  
  
