@@ -2,8 +2,8 @@ import pandas as pd
 
 
 
-base_olid = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_OLID/in_vs_cross/"
-base_hasoc = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_HASOC/in_vs_cross/"
+base_olid = "data/1_results_OLID/in_vs_cross/"
+base_hasoc = "data/1_results_HASOC/in_vs_cross/"
 
 easy_instances_input = base_olid + "correct_easy_predicitions.csv"
 easy_offensive_instances_input = base_olid +"correct_offensive_easy_predicitions.csv"
