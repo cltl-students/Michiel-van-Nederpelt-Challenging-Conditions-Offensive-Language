@@ -1,7 +1,7 @@
 import pandas as pd
 
-inputfile_train = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/OLID-master/olid-training-v1.0.tsv"
-output_file = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/OLID-master/olid-training-v1.0-preprocessed.tsv"
+inputfile_train = "data/OLID-master/olid-training-v1.0.tsv"
+output_file = "data/OLID-master/olid-training-v1.0-preprocessed.tsv"
 path_to_file = inputfile_train
 df = pd.read_csv(path_to_file, sep="\t")
 df = df.drop(columns="subtask_b")
