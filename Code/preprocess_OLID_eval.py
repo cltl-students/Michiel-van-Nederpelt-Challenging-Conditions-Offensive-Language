@@ -1,8 +1,8 @@
 import pandas as pd
 
-inputfile_text = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/OLID-master/testset-levela.tsv"
-inputfile_labels = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/OLID-master/labels-levela.csv"
-output_file = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/OLID-master/olid-eval-preprocessed-try.tsv"
+inputfile_text = "data/OLID-master/testset-levela.tsv"
+inputfile_labels = "data/OLID-master/labels-levela.csv"
+output_file = "data/OLID-master/olid-eval-preprocessed-try.tsv"
 
 
 df_text = pd.read_csv(inputfile_text, sep="\t")
