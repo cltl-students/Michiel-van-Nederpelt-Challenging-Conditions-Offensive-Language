@@ -149,8 +149,8 @@ def in_vs_cross(df_in):
 
 
 #inputfiles basic paths
-base_olid = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_OLID/"
-base_hasoc = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_HASOC/"
+base_olid = "data/1_results_OLID/"
+base_hasoc = "data/1_results_HASOC/"
 in_vs_cross_out = "in_vs_cross/"
 in_domain = "in-domain/"
 cross_domain = "cross-domain/"
