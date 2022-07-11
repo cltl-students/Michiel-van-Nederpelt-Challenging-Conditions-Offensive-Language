@@ -1,8 +1,8 @@
 import pandas as pd
 
 #inputfiles
-base_olid = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_OLID/"
-base_hasoc = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_HASOC/"
+base_olid = "data/1_results_OLID/"
+base_hasoc = "data/1_results_HASOC/"
 in_domain = "in-domain/"
 cross_domain = "cross-domain/"
 
