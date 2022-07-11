@@ -1,15 +1,15 @@
 import pandas as pd
-base_hasoc = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/HASOC/"
-base_olid = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/OLID-master/"
+base_hasoc = "data/HASOC/"
+base_olid = "data/OLID-master/"
 train_file_hasoc = base_hasoc + "HASOC_SOURCE_english_dataset_train_preprocessed.tsv"
 test_file_hasoc = base_hasoc+  "HASOC_SOURCE_english_dataset_test_preprocessed.tsv"
 train_file_olid = base_olid + "olid-training-v1.0.tsv"
 train_file_olid_pp = base_olid +"olid-training-pp-labels.txt"
 test_file_olid = base_olid + "olid-eval-preprocessed.tsv"
-result_in_olid = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_OLID/in-domain/in_domain_OLID_test_predicted.csv"
-result_cross_olid = '/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_OLID/cross-domain/cross_domain_OLID_test_predicted.csv'
-result_in_hasoc = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_HASOC/in-domain/in_domain_HASOC_test_predicted.csv"
-result_cross_hasoc = '/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_HASOC/cross-domain/cross_domain_HASOC_test_predicted.csv'
+result_in_olid = "data/1_results_OLID/in-domain/in_domain_OLID_test_predicted.csv"
+result_cross_olid = 'data/1_results_OLID/cross-domain/cross_domain_OLID_test_predicted.csv'
+result_in_hasoc = "data/1_results_HASOC/in-domain/in_domain_HASOC_test_predicted.csv"
+result_cross_hasoc = 'data/1_results_HASOC/cross-domain/cross_domain_HASOC_test_predicted.csv'
 
 df_train_hasoc = pd.read_csv(train_file_hasoc, sep = "\t")
 df_test_hasoc = pd.read_csv(test_file_hasoc, sep = "\t")
