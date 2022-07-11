@@ -29,5 +29,5 @@ HASOC dataset download: https://hasocfire.github.io/hasoc/2020/dataset.html
 
 OLID dataset download: https://competitions.codalab.org/competitions/20011
  
-#NOTE 
+# NOTE 
 This paper and subsequent repositiory contains examples of language which may be offensive to some readers. They do not represent the views of the author.
