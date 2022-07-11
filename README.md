@@ -12,8 +12,12 @@ We follow four "phases" for increasing challenging conditions:
  - to fine-tuning on one dataset and testing the system on another, known as cross-domain testing. 
  - Phase one and three are then tested with the addition of perturbations in the test set. 
  
+
+# Thesis report
+
+Overleaf page thesis report: https://www.overleaf.com/project/62540ce232850d7f28306097#
  
- # Resources
+# Resources
  
 The code and links to resources used are here for reference: Much of the data required is (temporarily) available in the data folder. This will be taken offline after review. Links to the original data include:
 
@@ -25,5 +29,5 @@ HASOC dataset download: https://hasocfire.github.io/hasoc/2020/dataset.html
 
 OLID dataset download: https://competitions.codalab.org/competitions/20011
  
- 
-NOTE: This paper and subsequent repositiory contains examples of language which may be offensive to some readers. They do not represent the views of the author.
+#NOTE 
+This paper and subsequent repositiory contains examples of language which may be offensive to some readers. They do not represent the views of the author.
