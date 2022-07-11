@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 # inputfiles
-inputfile_train = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/OLID-master/labels-levela.csv"
+inputfile_train = "data/OLID-master/labels-levela.csv"
 inputfile_dev = 'data/SEM-2012-SharedTask-CD-SCO-dev-simple.v2.features.conll'
 
 # outputfiles
