@@ -2,9 +2,9 @@ import pandas as pd
 
 
 
-result_cross_olid = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_OLID/cross-domain/cross_domain_OLID_test_predicted.csv"
+result_cross_olid = "data/1_results_OLID/cross-domain/cross_domain_OLID_test_predicted.csv"
 
-infile = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/1_results_OLID/in-domain/offensive_predicted_political.txt"
+infile = "data/1_results_OLID/in-domain/offensive_predicted_political.txt"
 
 
 df_olid_cross = pd.read_csv(result_cross_olid,  index_col=[0])
