@@ -1,8 +1,8 @@
 import pandas as pd
 
 #inputfiles
-base_olid = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/results_OLID_test/"
-base_hasoc = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/results_HASOC_test/"
+base_olid = "data/results_OLID_test/"
+base_hasoc = "data/results_HASOC_test/"
 in_domain = "in-domain/"
 cross_domain = "cross-domain/"
 
@@ -29,5 +29,5 @@ wrong_predictions(inputfile_cross_domain_olid, outputputfile_cross_domain_olid)
 
 
 #inputfile_in_domain_hasoc =
-inputfile_cross_domain_hasoc = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/results_HASOC_test/in-domain/OLID_train_HASOC__test_predicted.csv"
+inputfile_cross_domain_hasoc = "data/results_HASOC_test/in-domain/OLID_train_HASOC__test_predicted.csv"
 #inputfile_cross_domain_olid =
