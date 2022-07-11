@@ -1,7 +1,7 @@
 import pandas as pd
 
-inputfile_in_domain = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/results_OLID_test/in-domain/OLID_train_OLID__test_predicted.csv"
-inputfile_hasoc_cross_domain = "/Users/michielv.nederpelt/Desktop/Studie/Thesis/data/results_HASOC_test/in-domain/OLID_train_HASOC__test_predicted.csv"
+inputfile_in_domain = "data/results_OLID_test/in-domain/OLID_train_OLID__test_predicted.csv"
+inputfile_hasoc_cross_domain = "data/results_HASOC_test/in-domain/OLID_train_HASOC__test_predicted.csv"
 
 #load predictions in dataframes
 df_in_domain = pd.read_csv(inputfile_in_domain, sep=",", index_col=[0])
